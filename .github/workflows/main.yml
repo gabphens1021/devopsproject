@@ -17,8 +17,8 @@ jobs:
       uses: aws-actions/lambda-deploy-function@v1
       env:
         AWS_REGION: us-east-1
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_ACCESS_KEY_ID: AKIAR6IRPXJJHTWFFAHB
+        AWS_SECRET_ACCESS_KEY: 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
       with:
         function-name: my-lambda-function
         zip-file: dist/lambda.zip
